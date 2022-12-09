@@ -31,6 +31,7 @@
   <header class="header section">
     
     <div class="header__contract padding">
+      
       <div class="contract__social">
         <i class="fa-brands fa-linkedin-in"></i>
         <i class="fa-brands fa-facebook-f"></i>
@@ -38,35 +39,61 @@
       </div>
       
       <div class="contract__link">
+        
         <div class="contract__email">
           <i class="fa-solid fa-envelope"></i>
           <p>info@docmed.com</p>
         </div>
+        
         <div class="contract__phone">
           <i class="fa-solid fa-phone"></i>
           <p>160160</p>
         </div>
+        
       </div>
+      
     </div>
     
     <div class="header__main padding">
+      
       <div class="header__logo">
-        <img src="img/download.webp" alt="logo" />
+        <img class="header__img"  src="img/download.webp" alt="logo" />
       </div>
       
+      <input type="checkbox" id="checkbox"/>
+      <label for="checkbox" class="check">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      
       <nav class="header__nav">
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">department</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">pages</a></li>
-          <li><a href="#">doctors</a></li>
-          <li><a href="#">contract</a></li>
+        
+        <ul class="nav__ul">
+          <li class="nav__li"><a class="nav__a" href="#">home</a></li>
+          <li class="nav__li"><a class="nav__a" href="#">department</a></li>
+          <li class="nav__li">
+            <a class="nav__a" href="#">blog››</a>
+            <ul class="sub__ul">
+              <li class="sub__li"><a class="nav__a" href="blog">blog</a></li>
+              <li class="sub__li"><a class="nav__a" a href="#">single blog</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <a class="nav__a" href="#">pages››</a>
+            <ul class="sub__ul">
+              <li class="sub__li"><a class="nav__a"  href="#">element</a></li>
+              <li class="sub__li"><a class="nav__a"  href="#">about</a></li>
+            </ul>
+          </li>
+          <li class="nav__li"><a class="nav__a" href="#">doctors</a></li>
+          <li class="nav__li"><a class="nav__a" href="#">contract</a></li>
         </ul>
+        
       </nav>
+      
       <div class="header__button">
-        <button type="submit">Make an Appointment</button>
+        <button class="header__btn" type="submit">Make an Appointment</button>
       </div>
+      
     </div>
     
   </header>
