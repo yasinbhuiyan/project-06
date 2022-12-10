@@ -53,6 +53,6 @@
 .sub__li:hover{
   background: #FF8989;
 }
-header__button{
+.header__button{
   display: none;
 }
