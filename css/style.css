@@ -213,6 +213,7 @@
   transform: translateY(-50%);
   padding: 0 100px;
   width: 60%;
+  text-shadow: 3px 3px 30px #8E8E8E
 }
 .slides__h1{
   font-size: 3rem;
@@ -254,7 +255,7 @@
 
 /* service start */
 .service{
-  padding: 10px 10%;
+  padding: 15px 10%;
   background: #1E90FF;
 }
 .service__card{
@@ -440,3 +441,53 @@
   
 }
 /* Departments end */
+
+/* text start */
+.text{
+  position: relative;
+  width: 100%;
+  height: 445px;
+  overflow: hidden;
+}
+.text__img{
+  width: 100%;
+  height: 100%;
+}
+.text__text{
+  top: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background: rgba(60, 60, 60, 0.3);
+  height: 100%;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__h2{
+  font-size: 100px;
+  padding: 5px;
+}
+.text__p{ 
+  padding: 10px 13%;
+  font-size: 16px;
+  line-height: 25px;
+  text-shadow: 3px 3px 30px #000000
+
+}
+.hr2{
+  width: 70px;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  padding: 10px;
+}
+.text__a{
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px;
+}
+/* text end */
