@@ -1,10 +1,28 @@
+.padding{
+  padding: 0 3%;
+}
+.padding--not{
+ padding: 0
+}
+.contract__phone{
+  margin-right: -10px
+}
 #checkbox:checked ~ .header__nav{
   left: 0;
+}
+#checkbox:checked ~ .check, #checkbox:not(:checked) ~ .check{
+  transform: rotate(180deg);
+  transition: all .3s linear;
+}
+#checkbox:not(:checked) ~ .check{
+  transform: rotate(360deg);
+  transition: all .3s linear;
 }
 .check{
   display: block;
   font-size: 25px;
   cursor: pointer;
+  padding: 5px;
 }
 .header__nav{
   position: absolute;
@@ -55,4 +73,64 @@
 }
 .header__button{
   display: none;
+}
+
+.slides{
+  width: 90%;
+  padding: 0 3%;
+
+}
+.slides__h1{
+  font-size: 2rem
+}
+.slides__h2{
+  font-size: 2rem
+}
+
+.service{
+  padding: 10px 20px;
+}
+.service__card{
+  align-items: center;
+  padding: 0;
+}
+.service__p{
+  text-align: center
+}
+
+.care{
+  padding: 10px 3%;
+}
+.care__image{
+  width: 100%
+}
+.care__dics{
+  padding: 40px 3%;
+}
+
+.care__h5{
+  font-size: 18px;
+}
+.care__h3{
+  font-size: 32px;
+}
+.care__p{
+  line-height: 25px;
+  color: #939393;
+  font-size: 16px;
+  font-weight: normal;
+}
+.care__li{
+  line-height: 25px;
+  color: #555555;
+  font-size: 16px;
+}
+.departments__head{
+  padding-top: 50px;
+}
+.head__p{
+  width: 100%;
+}
+.departments__body{
+  padding-bottom: 50px;
 }
