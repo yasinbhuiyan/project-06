@@ -134,3 +134,7 @@
 .departments__body{
   padding-bottom: 50px;
 }
+.text{
+  background: url("/img/img4.png");
+  background-size: cover;
+}
