@@ -136,7 +136,8 @@
   border: 1px solid #F6F6F6;
 }
 .sub__li:hover{
-  background: #ECECEC;
+  color: #1E90FF;
+  background: rgba(206, 206, 206, 0.5);
 }
 
 .header__btn{
@@ -499,3 +500,59 @@
 /* text end */
 
 
+/* tabs start */
+.tabs__content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tabs__content input[type="radio"] {
+    display: none;
+}
+.tabs__content label {
+  width: 33%;
+  height: 65px;
+  background: #FFFFFF;
+  font-weight: normal;
+  padding: 25px;
+  font-size: 15px;
+}
+.tabs__content input[type='radio']:checked + label + .tab {
+    display: block;
+}
+.tabs__content input[type="radio"]:checked + label {
+    background: #E9E9E9;
+}
+
+.tab{
+    width: 100%;
+    padding: 80px 0;
+    background: #fff;
+    order: 1;
+    display: none;
+    
+}
+.tab__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tab__h3{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 25px 0 8px 0;
+}
+.tab__p{
+  color: #9A9A9A;
+  line-height: 23px;
+  font-size: 13px;
+  text-align: left;
+}
+.tab__image{
+  height: 215px;
+  overflow: hidden;
+}
+.tab__img{
+  width: 100%;
+}
+/* tabs start */

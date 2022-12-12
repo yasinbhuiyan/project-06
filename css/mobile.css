@@ -12,11 +12,11 @@
 }
 #checkbox:checked ~ .check, #checkbox:not(:checked) ~ .check{
   transform: rotate(180deg);
-  transition: all .3s linear;
+  transition: all .2s linear;
 }
 #checkbox:not(:checked) ~ .check{
   transform: rotate(360deg);
-  transition: all .3s linear;
+  transition: all .2s linear;
 }
 .check{
   display: block;
@@ -46,13 +46,20 @@
 }
 .nav__li{
   font-size: 16px;
-  padding: 6px;
+  padding: 0;
   display: block;
   width: 100%;
 }
+.nav__li:hover{
+  background: rgba(206, 206, 206, 0.5);
+  color: #1E90FF
+}
+.nav__li:hover > .sub__ul{
+  background: #FFFFFF
+}
 .nav__a{
   font-size: 16px;
-  padding: 6px;
+  padding: 12px;
   display: block;
   width: 100%;
 }
@@ -69,7 +76,8 @@
   background: transparent;
 }
 .sub__li:hover{
-  background: #FF8989;
+  background: rgba(206, 206, 206, 0.5);
+  color: #1E90FF
 }
 .header__button{
   display: none;
@@ -137,4 +145,10 @@
 .text{
   background: url("/img/img4.png");
   background-size: cover;
+}
+.tab{
+  padding: 30px 0;
+}
+.tab__h3{
+  padding: 8px 0
 }
