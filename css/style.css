@@ -451,7 +451,7 @@
   width: 100%;
   height: 445px;
   overflow: hidden;
-  background: url("img/img3.png");
+  background: url(/img/x1.png.pagespeed.ic.NH__KL9wkr.webp);
   background-size: cover;
 }
 .text__img{
@@ -646,12 +646,12 @@
   border: 1px solid #1E90FF;
 }
 .contact__div1{
-  background: url("img/img97.png");
+  background: url(/img/xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
   background-size: cover;
   padding: 0;
 }
 .contact__div2{
-  background: url("img/img98.png");
+  background: url(/img/xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
   background-size: cover;
   padding: 0;
 }
