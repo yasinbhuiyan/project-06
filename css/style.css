@@ -204,7 +204,6 @@
   z-index: 1;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0 100px;
   width: 60%;
   text-shadow: 3px 3px 30px #8E8E8E
 }
@@ -613,7 +612,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 70px;
 }
 .contact__dics{
   color: #FFFFFF;
@@ -665,8 +663,7 @@
   
 }
 .footer__head{
-  padding: 80px 0;
-  margin: 0 10%
+  padding: 70px 0;
 }
 .footer__img{
   width: 130px;
