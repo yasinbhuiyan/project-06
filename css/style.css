@@ -353,7 +353,7 @@
 }
 .care__ul{
   padding: 20px 0;
-  list-style: inside url(/img/tick.svg);
+  list-style: inside url(img/tick.svg);
   
 }
 .care__li{
@@ -451,7 +451,7 @@
   width: 100%;
   height: 445px;
   overflow: hidden;
-  background: url("/img/img3.png");
+  background: url("img/img3.png");
   background-size: cover;
 }
 .text__img{
@@ -646,12 +646,12 @@
   border: 1px solid #1E90FF;
 }
 .contact__div1{
-  background: url("/img/img97.png");
+  background: url("img/img97.png");
   background-size: cover;
   padding: 0;
 }
 .contact__div2{
-  background: url("/img/img98.png");
+  background: url("img/img98.png");
   background-size: cover;
   padding: 0;
 }
