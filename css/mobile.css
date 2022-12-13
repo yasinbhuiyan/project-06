@@ -115,7 +115,8 @@
   padding: 40px 3%;
 }
 .text{
-  background: url('../img/img3.png')
+  background: url('../img/img4.png') no-repeat center;
+  background-size: cover;
 }
 
 .care__h5{
