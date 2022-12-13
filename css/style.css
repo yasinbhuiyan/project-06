@@ -663,7 +663,9 @@
   
 }
 .footer__head{
-  padding: 70px 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 .footer__img{
   width: 130px;
@@ -672,7 +674,7 @@
 }
 .footer__h3{
   padding: 30px 0;
-  font-size: 22px;
+  font-size: 18px;
   color: #F3F3F3;
   font-weight:normal
 }
@@ -696,6 +698,7 @@
   line-height: 30px;
   font-weight: normal;
   text-transform: capitalize;
+  max-width: 300px;
 }
 .footer__a{
   color: #C2C2C2;
