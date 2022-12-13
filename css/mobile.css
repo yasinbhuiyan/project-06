@@ -114,6 +114,9 @@
 .care__dics{
   padding: 40px 3%;
 }
+.text{
+  background: url('../img/img3.png')
+}
 
 .care__h5{
   font-size: 18px;
