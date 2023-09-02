@@ -354,7 +354,6 @@
 .care__ul{
   padding: 20px 0;
   list-style: inside url(../img/tick.svg);
-  
 }
 .care__li{
   line-height: 28px;
@@ -733,11 +732,11 @@
   text-align: center
 }
 .copy__a{
-  color: #44A3FF;
+  color: #6A77FF;
   font-size: 14px;
   padding: 10px 0;
   font-weight: normal;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 /* footer end */
